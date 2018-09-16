@@ -2,10 +2,7 @@ const express = require("express");
 const mysql = require('mysql');
 
 const db = mysql.createConnection({
-  host     : 'patsydb.com4k2xtorpw.ap-southeast-1.rds.amazonaws.com',
-  user     : 'patsydigital01',
-  password : 'pAtsy06072018',
-  database : 'test_db'
+//test_db patsy
 });
 
 db.connect(err => {
